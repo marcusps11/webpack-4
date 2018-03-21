@@ -31,7 +31,7 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          "style-loader", "css-loader"
+          "style-loader", "css-loader", 'postcss-loader'
          ]
       },
       {
@@ -44,7 +44,7 @@ module.exports = {
               normalize,
               './node_modules/bootstrap-sass/assets/stylesheets'
             ]
-          })
+          }),'postcss-loader'
         ]
       }]},
       plugins: [

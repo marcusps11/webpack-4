@@ -1,5 +1,5 @@
-module.exports = {
-  plugins: [
-    require('autoprefixer')
-  ]
-}
+module.exports = () => ({
+  plugins: {
+      autoprefixer: { browsers: ['ie > 8', 'last 2 versions']}
+  }
+})
