@@ -1,4 +1,4 @@
-import App from "../App";
+import App from "../js/index.js";
 import '../styles/main.scss';
 
 
